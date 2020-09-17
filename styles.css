@@ -1,0 +1,76 @@
+/* Created Urhefe Ogheneyoma victor */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #e6e6d4
+}
+#myClock {
+    width: 320px;
+    height: 164px;
+    margin: 100px auto;
+    background: #1A1A1A;
+    border: 5px solid #1687a7;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 5px 5px 15px #555,
+                -5px -5px 15px #555;
+    color: rgb(4, 226, 226);
+}
+#time {
+    width: 100%;
+    height: 90px;
+    font-family: 'Segment7Standard';
+}
+#time #hrs-mins {
+    float: left;
+    width: 80%;
+    height: auto;
+    font-size: 70px;
+    padding: 20px 0 0 30px;
+}
+#time #secs {
+    float: left;
+    width: 20%;
+    height: auto;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#date {
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'FuturaRennerRegular';
+}
+#date #d-m-y {
+    float: left;
+    width: 60%;
+    padding: 5px 10px;
+}
+#date #day {
+    float: right;
+    width: 40%;
+}
+#date #day p {
+    margin: 0;
+    border: 1px solid rgb(0, 255, 255);
+    padding: 4px 0;
+    text-align: center
+}
+footer {
+    margin-top: -50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer a {
+    font-weight: bold;
+    color: #1f1d1d;
+    text-decoration: none;
+}
